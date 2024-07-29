@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Oswald", sans-serif;
+}
+
+/* body {
+  background: url(../src/assets/backbg.jpg);
+  
+}
+
+body::before {
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+} */
+
+.backBg {
+
+}
