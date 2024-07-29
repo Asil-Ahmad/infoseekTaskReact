@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-import ClassComponent from "./components/ClassComponents";
+import ClassComponent from "./Class/ClassComponents";
 
 const App2 = () => {
   const [show, setShow] = useState(true);

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Greetings from "./Greetings";
+
 
 class ClassComponent extends Component {
   state = {
