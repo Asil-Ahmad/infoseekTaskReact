@@ -1,5 +1,6 @@
-import React, { useState, useEffect } from "react";
+//this App2 is onlu to run for classComponents only for now
 
+import React, { useState, useEffect } from "react";
 import ClassComponent from "./Class/ClassComponents";
 
 const App2 = () => {

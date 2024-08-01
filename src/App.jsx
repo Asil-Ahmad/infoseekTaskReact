@@ -1,5 +1,5 @@
+//this is for funtional components
 import React, { useState } from "react";
-
 import Register from "./components/Register";
 import Login from "./components/Login";
 import Props from "./components/Props";

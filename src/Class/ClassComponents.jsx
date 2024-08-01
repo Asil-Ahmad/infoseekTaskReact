@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 
-
 class ClassComponent extends Component {
   state = {
     username: "",
@@ -29,7 +28,9 @@ class ClassComponent extends Component {
     return (
       <div className='flex items-center justify-center flex-col h-[100vh] bg-center bg-cover  '>
         <form className='flex flex-col p-5 backdrop-blur-sm bg-black/50 rounded-lg text-white gap-5'>
-          <h1 className='text-4xl font-[600] tracking-widest text-center'>Form</h1>
+          <h1 className='text-4xl font-[600] tracking-widest text-center'>
+            Form
+          </h1>
           <input
             type='text'
             name='username'
