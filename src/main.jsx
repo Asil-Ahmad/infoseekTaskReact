@@ -1,7 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
-import App2 from "./App2.jsx";
-import "./index.css";
 
-ReactDOM.createRoot(document.getElementById("root")).render(<App2 />);
+import "./index.css";
+import UserAuthProvider from "./context/UserContext.jsx";
+
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <UserAuthProvider>
+    <App />
+  </UserAuthProvider>
+);
